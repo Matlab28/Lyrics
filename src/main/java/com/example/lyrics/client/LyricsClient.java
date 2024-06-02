@@ -12,7 +12,7 @@ public class LyricsClient {
     @Value("genius-song-lyrics1.p.rapidapi.com")
     private String apiHost;
 
-    @Value("674678e122mshd00ec5b8f945302p1052bcjsn0ad69ed2af91")
+    @Value("YOUR_RAPID_API_KEY")
     private String apiKey;
 
     public LyricsClient(WebClient.Builder webClientBuilder) {
