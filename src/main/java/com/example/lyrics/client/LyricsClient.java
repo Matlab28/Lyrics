@@ -9,10 +9,10 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class LyricsClient {
     private final WebClient webClient;
 
-    @Value("genius-song-lyrics1.p.rapidapi.com")
+    @Value("YOUR_API_HOST")
     private String apiHost;
 
-    @Value("YOUR_RAPID_API_KEY")
+    @Value("YOUR_API_KEY")
     private String apiKey;
 
     public LyricsClient(WebClient.Builder webClientBuilder) {
